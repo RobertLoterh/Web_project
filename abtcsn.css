@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* about CSN */
+
+.bpic{
+	border:#00F  double/*dotted*/; 
+	width:120px;
+	height:120px;
+	float:right;
+	margin:10px 20px 8px 20px;
+	}
+	

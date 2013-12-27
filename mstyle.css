@@ -1,0 +1,395 @@
+@charset "utf-8";
+body {
+	margin-top: 40px;
+	padding:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#06F;
+}
+
+/*******************************************
+**********TOP MENU CONTENT******************
+*******************************************/
+#tpm{
+	width: 860px;
+	margin: 0px auto 20px auto;
+	padding: 0;
+	text-indent:600px;
+	word-spacing: 5px;	/*line-height: 25px; */
+	color: #009;
+	}
+	
+	/*link*/
+#tpm a:link {
+	color:#009;
+	text-decoration:none;}
+	
+	/*#tpm a:active{
+		color:#00F;
+	text-decoration:none;}*/
+	
+	#tpm a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+	
+	#tpm a:visited{
+		color:#009;
+	text-decoration:none;
+	}
+	
+
+/*******************************************
+**********BANNER CONTENT********************
+*******************************************/
+/*logo*/
+#lgo{
+	margin-top:17px;
+	margin-right: 15px;
+	margin-left: 50px;
+	position:relative;
+	float:left;			
+	}
+	
+#vrl{
+	/*width:6px;*/
+	margin-top:40px;
+	height:35px;
+	position:relative;
+	border-right:#FFF double;
+	/*border-right:#FFF dotted 2px; */
+	/*border-left:#FFF dotted 2px; */
+	float:left;
+	}
+	
+	/*title n motto*/
+#lgt{
+	margin-top:35px;
+	margin-left: 15px;
+	font-weight:bold;
+	position:relative;
+	float:left;
+	color:#FFF;
+	/*text-shadow*/
+	}
+     #ltu{
+	font-size:20px;
+	-moz-word-spacing:2px;
+	word-spacing:3px;
+	-webkit-text-shadow: 0px -1px 1px #000;
+  -moz-text-shadow: 0px -1px 1px #000; 
+  text-shadow: 0px -1px 1px #000;
+  outline: none;	 
+		 }
+	  #ltb{
+		  font-size:11px;
+		 word-spacing:1px;
+		 font-style:italic;
+		 
+		 }
+	/*search*/
+#sch{
+    position:relative;
+	/*text-align:center;	*/	
+	margin-top:45px;
+	margin-right: 50px;
+	padding-top:0px;
+	/*font-size:10px;*/
+	float:right;
+	}
+	
+	/*#sfrm{
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:10px;
+		}*/
+
+  #scf{
+	font-size:10px;
+	width:150px;
+	font-style:italic;
+	margin:0;
+	border:  #5F8FFF solid 2px;
+	color:#808080;
+	  } 
+	  
+#sbtn{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	 font-size:10px;
+	 margin:0px;
+	 }  	
+	 /*  #sht{
+		   margin-top:2px;
+			position:relative;	
+			float:left;
+			width: 150px;
+			background-color:#FFF;
+	  }
+	
+		#shb{
+			margin:0px;
+			padding:0px;
+			position:relative;	
+			float:right;
+			}
+*/
+
+/*******************************************
+**********MENU CONTENT**********************
+*******************************************/
+/* a[class="mnl"]:link {
+	color:#333;
+	text-decoration:none;}
+	
+	a[class="mnl"]:active{
+		color:#00F;
+	text-decoration:none;}
+	
+	a[class="mnl"]:hover{
+		color:#00F;
+	text-decoration:underline;}
+	
+	a[class="mnl"]:visited{
+		color:#333;
+	text-decoration:none;}*/
+	
+	.mnu a:link {
+	color:#333;
+	text-decoration:none;}
+	
+	/*.mnu a:active{
+		color:#00F;
+	text-decoration:none;}*/
+	
+	.mnu a:hover{
+		color:#00F;
+	text-decoration:underline;}
+	
+   .mnu a:visited{
+		color:#333;
+	ext-decoration:none;
+	}
+	
+	
+
+/*******************************************
+**********RIGHT...PANE...BG*****************
+*******************************************/
+.rpHeader{
+	position:relative;
+	background-image:url(im/nvh.png);
+	width:186px;
+/*	margin: 20px auto 5px auto;
+*/	margin: 10px auto;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	vertical-align:middle;
+	}
+	
+	.pns{
+		margin-bottom:30px;}
+#pnav{
+	/*text-align:right;*/
+	color:#00F;
+	padding:0px;
+    margin:0px 10px;	
+	letter-spacing:2px;
+	/*font-weight:bold;*/
+	}
+	
+	
+	/*quicklinks*/
+	#pnav ul{
+		margin:0px;
+		padding:0px;
+		}
+	#pnav li{
+		border-bottom:#00F solid 1px;
+		list-style:none;
+		/*list-style:circle;*/
+		}
+	
+	
+#p1{
+	margin-top:15px;}
+	
+	/*CALENDAR*/
+#p2{
+	
+	position:relative;
+	width:200px;
+	/*height:200px;*/
+	}
+	
+	#datepicker{
+		
+		font: 9px "Trebuchet MS", sans-serif;
+		 margin: 10px 12px;
+		}
+	
+#p3{
+	position:relative;
+	height:auto;
+	vertical-align:middle;
+	}
+	
+	/*cHanged here*/
+	#ad1, #ad2, #ad3, #ad4{
+		padding-bottom:5px}
+	
+	.adbx{
+		/*padding:5px 0px;*/
+		}
+	
+	/****PANE LINKS***/
+	a[class="pnl"]:link {
+	color:#00F;
+	text-decoration:none;}
+	
+	a[class="pnl"]:active{
+		color:#333;
+	text-decoration:none;}
+	
+	a[class="pnl"]:hover{
+	color:#009;
+	text-decoration:underline;
+}
+	
+	a[class="pnl"]:visited{
+		color:#00F;
+	text-decoration:none;}
+	
+	
+	
+/*******************************************
+**********MAIN CONTENT***********************
+*******************************************/
+#ttle{
+	color:#667;
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing:6px;
+	/*margin-top:30px auto 0px auto;*/
+	line-height:30px;
+	text-indent:50px;
+	height:30px;
+	}
+	
+.mheader{
+	color:#00F;
+	font-size:12px;
+	text-indent:80px;
+	margin-top:30px;
+	/*font-family: Verdana, Geneva, sans-serif;*/
+	font-weight: bold;
+	letter-spacing: 2px;
+	}
+	
+.hdrl{
+	border-top:double #00F;
+	margin:auto 18px;
+	border-color: #00F;
+	}
+
+/**Picture.Text**Container**/
+.txtpic{
+	padding: 5px 20px 0px 20px;
+	text-align:justify;
+}
+
+.acc_cntnt{
+	margin:auto 20px;
+	/*width:auto;*/
+	}
+
+#accordion{
+	/*width:400px;*/
+	font: 12px "Trebuchet MS", sans-serif;
+	/*margin:auto 18px;*/
+	}
+
+.hdrl2{
+	border-top: dotted/*solid*/ #00F 1px;
+	margin-bottom:40px;
+	margin:auto 18px;
+	}
+	
+.bpic{
+	border:#00F  double/*dotted*/; 
+	width:120px;
+	height:120px;
+	float:left;
+	margin:10px 20px 8px 20px;
+	}
+	
+	
+	
+	.abbpic{
+	border:#00F dotted; 
+	width:120px;
+	height:120px;
+	float:right;
+	margin:10px 20px 8px 20px;
+	}
+/*******************************************
+**********FOOTER CONTENT********************
+*******************************************/
+#content6{
+	margin-bottom:20px;}
+	
+#fcontent{
+	border-top:double #999999;
+	border-bottom:double #999999;
+	margin-bottom:10px;
+	text-align:center ;
+	word-spacing: 10px;}
+	
+	
+		#fcontent a:link {
+	color:#000;
+	text-decoration:none;}
+	
+	/*.mnu a:active{
+		color:#00F;#fcontent
+	text-decoration:none;}*/
+	
+	#fcontent a:hover{
+		color:#00F;
+	text-decoration:underline;}
+	
+   #fcontent a:visited{
+		color:#000;
+	ext-decoration:none;
+	}
+	
+	
+	
+/*******************************************
+**********ADDR_BELOW********************
+*******************************************/	
+	#abl{
+		width: 860px;
+		margin: 8px auto 20px auto;
+		padding: 0;
+		text-align:center;
+			/*line-height: 25px; */
+	/*	color: #009;*/
+		}
+		
+		.adr{
+			font-size:12px;
+			line-height:15px;
+			color:#FFF;
+			font-weight:bold;}
+/*******************************************
+**********SLIDER CONTENT********************
+*******************************************/
+.theme-default #slider {
+	width:620px; /* Make sure your images are the same size */
+	height:185px; /* Make sure your images are the same size */
+	margin: 0px;	
+}
+
+.clear {
+	clear:both;
+}

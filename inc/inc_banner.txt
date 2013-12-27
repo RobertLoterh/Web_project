@@ -1,0 +1,27 @@
+<div class="bnr" id="bnrbg">
+    <div id="lgo"><img src="im/lgo.png" width="71" height="73" /></div>
+    <div id="vrl"></div>
+<div id="lgt">
+      <div id="ltu">CHRISTIAN SCHOOL OF NURSING</div>
+      <div id="ltb">strengthening lives for Purpose, Service and Leadership</div>
+    </div>
+    <!--SEARCH-->
+    <div id="sch">
+    
+    
+  	<form  method="get" name="searchform" id="sfrm" action="#" target="_blank">
+    <!--<input type="hidden" name="sitesearch" value="Search" />-->
+    <input id= "scf" onfocus="searchfield_focus(this)" 
+    type="text" name="as_q" size="16" value="Search" /><input id="sbtn" type="submit" value="Go" title="Search" size="16" />
+	</form>
+    
+    
+    
+     <!-- <div id="sht">Search...</div>-->
+     <!-- <div id="shb"><input name="Go" type="button" value="Go" /></div>-->
+       <!-- <div class="clear"></div>-->
+    </div>
+       
+       
+   <div class="clear"></div>
+  </div>

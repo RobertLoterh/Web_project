@@ -1,0 +1,17 @@
+<ul>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Departments</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Entry requirement</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">How to apply</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Academic calendar</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Upcoming events</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Announcement</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Accommodation</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">International students</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">S R C</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Associations</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Exams Time table</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">FAQs</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Gallery</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">Affiliates</a></li>
+           <li><a class="pnl" href="file:///C|/xampp/htdocs/data/#">usefeful links</a></li>
+         </ul>
